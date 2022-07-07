@@ -1,0 +1,190 @@
+/*Variables*/
+/* header */
+.header {
+  background-color: #ffcc03;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .header body {
+    padding-top: 70px 20px 0;
+  }
+  .header .header {
+    height: 60px;
+  }
+  .header .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  .header .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+  .header .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #e2b500;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 35%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  .header .nav-menu-item {
+    line-height: 70px;
+  }
+  .header .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .header .nav-menu_visible {
+    left: 0;
+  }
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-link {
+  color: black;
+  text-decoration: none;
+}
+.header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+.header .nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.header .nav-menu-item {
+  font-size: 18px;
+  margin: 0 20px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.header .nav-toggle {
+  color: black;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
+
+/*Variables*/
+/* FOOTER */
+footer .footer {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  height: 14vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Variables*/
+body a {
+  text-decoration: none;
+  color: black;
+}
+body a:hover {
+  opacity: 0.5;
+}
+body section {
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  border-radius: 4px;
+}
+body .section1 {
+  display: grid;
+  height: 75vh;
+  margin: 20px 15%;
+  grid-gap: 20px;
+  grid-template-columns: repeat 3, 1fr;
+  grid-template-rows: repeat 4, auto;
+}
+body .titulo-section1 {
+  grid-column: 2/3;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body .links-section1 {
+  grid-column: 2/3;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
+}
+body .texto-section1 {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+body .imagen-section1 {
+  grid-row: span 1/3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body .section2 {
+  display: grid;
+  height: 75vh;
+  margin: 20px 15%;
+  grid-gap: 20px;
+  grid-template-columns: repeat 3, 1fr;
+  grid-template-rows: repeat 4, auto;
+}
+body .titulo-section2 {
+  grid-column: 2/3;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body .links-section2 {
+  grid-column: 2/3;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
+}
+body .texto-section2 {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+body .imagen-section2 {
+  grid-row: span 1/3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*# sourceMappingURL=manu.css.map */
